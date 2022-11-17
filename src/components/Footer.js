@@ -14,7 +14,7 @@ function Footer() {
 
             {/*<a href="instagram://user?username=mudri.andrej" className='instalink' target='_blank'><img src={ insta } alt="social"/></a>*/}
 
-            <a href="https://www.instagram.com/mudri.andrej/" className='instalink' target='_blank'><img src={ insta } alt="social"/></a>
+            <a href={'https://www.instagram.com/mudri.andrej'} className='instalink' target='_blank'><img src={ insta } alt="social"/></a>
 
 
             {/*<button><img src={ insta } alt="social"/></button>*/}
