@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    width: 550px;
+    margin: 30px auto;
+    background-color: #23252C;
+    padding: 20px 0;
+}
+
+.card {
+    width: 317px;
+    /*height: 650px;*/
+    margin: 10px auto;
+
+
+}
+
+/*----- header ------*/
+.header {
+    background-color: #161619;
+    width: 100%;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+.header img {
+    height: 99%;
+}
+
+
+/*---- main content -----*/
+.main {
+    background-color: #1A1B21;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+    border-radius: 6px;
+    gap: 15px;
+    cursor: pointer;
+    color: #1e1f26;
+    background-color: white;
+
+}
+button:hover {
+    background-color: #D1D5DB;
+}
+.main h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.main h3 {
+    font-size: 12px;
+    color: #F3BF99;
+    font-weight: 400;
+    margin: 7px 0;
+}
+.main h4 {
+    font-size: 10px;
+    color: #F5F5F5;
+    font-weight: 400;
+}
+
+.about {
+    text-align: left;
+    margin: 30px 0;
+}
+
+.about h5 {
+    font-size: 13px;
+    color: #F5F5F5;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about p {
+    font-size: 11px;
+    color: #DCDCDC;
+    line-height: 1rem;
+}
+
+
+/*----- footer -----*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer button {
+    padding:0;
+    width: inherit;
+    border: none;
+    background-color: #161619;
+}
+.footer button:hover {
+    background-color: #1A1B21;
+}
+
+
+
+
+
+
+
+
+
+
