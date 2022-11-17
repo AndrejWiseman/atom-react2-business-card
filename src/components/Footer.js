@@ -12,8 +12,11 @@ function Footer() {
             <button><img src={ twitter } alt="social"/></button>
             <button><img src={ facebook } alt="social"/></button>
 
-            <a href="instagram://user?username=mudri.andrej" className='instalink'><img src={ insta } alt="social"/></a>
-            
+            {/*<a href="instagram://user?username=mudri.andrej" className='instalink' target='_blank'><img src={ insta } alt="social"/></a>*/}
+
+            <a href="https://www.instagram.com/mudri.andrej/" className='instalink' target='_blank'><img src={ insta } alt="social"/></a>
+
+
             {/*<button><img src={ insta } alt="social"/></button>*/}
             <button><img src={ linked } alt="social"/></button>
             <button><img src={ github } alt="social"/></button>
