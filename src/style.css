@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 550px;
+    max-width: 550px;
     margin: 30px auto;
     background-color: #23252C;
     padding: 20px 0;
@@ -129,7 +129,7 @@ button:hover {
     }
 
     .card {
-        margin: 0;
+
         padding: 10px;
         margin: 0 auto;
     }
