@@ -131,7 +131,12 @@ button:hover {
     .card {
         margin: 0;
         padding: 10px;
+        margin: 0 auto;
     }
+    .header img {
+        width: 98%;
+        margin: 0 auto;
+}
 }
 
 
