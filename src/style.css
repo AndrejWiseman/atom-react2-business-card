@@ -117,7 +117,11 @@ button:hover {
 .footer button:hover {
     background-color: #1A1B21;
 }
-
+.instalink{
+    border-bottom: 1px solid #F3BF99;
+    margin: 0;
+    padding:0;
+}
 
 
 @media screen and (max-width: 350px) {
